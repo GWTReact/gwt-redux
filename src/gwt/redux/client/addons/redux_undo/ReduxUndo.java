@@ -26,7 +26,7 @@ public class ReduxUndo {
      * @param baseReducer   The reducer to enhance
      * @return              The enhanced reducer
      */
-    @JsMethod(name="default")
+    @JsMethod
     public native static <STATE, A extends Action> Reducer<STATE, A> undoable(Reducer<STATE, A> baseReducer);
 
     @JsType(isNative = true)
