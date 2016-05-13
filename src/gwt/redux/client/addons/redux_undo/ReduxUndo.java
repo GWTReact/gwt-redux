@@ -24,6 +24,8 @@ public class ReduxUndo {
      *  </pre>
      *
      * @param baseReducer   The reducer to enhance
+     * @param <STATE>       The type of state the reducer works with
+     * @param <A>           The the type of action
      * @return              The enhanced reducer
      */
     @JsMethod
@@ -57,12 +59,16 @@ public class ReduxUndo {
         /**
          * jump to requested index in the past[] array
          *
+         * @param index The index to jump to
+         *
          * @return The jumpToPast action
          */
         public static native Action jumpToPast(int index);
 
         /**
          * jump to requested index in the future[] array
+         *
+         * @param index The index to jump to
          *
          * @return The jumpToFuture action
          */
