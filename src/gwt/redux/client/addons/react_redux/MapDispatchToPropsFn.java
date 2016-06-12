@@ -1,10 +1,10 @@
 package gwt.redux.client.addons.react_redux;
 
-import gwt.react.client.utils.ObjLiteral;
+import gwt.interop.utils.client.plainobjects.JsPlainObj;
 import gwt.redux.client.Dispatch;
 import jsinterop.annotations.JsFunction;
 
 @JsFunction
 public interface MapDispatchToPropsFn<P> {
-    ObjLiteral mapDispatchToProps(Dispatch dispatch, P ownProps);
+    JsPlainObj mapDispatchToProps(Dispatch dispatch, P ownProps);
 }
