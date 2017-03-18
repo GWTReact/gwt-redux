@@ -23,7 +23,7 @@ You can download the latest release .jar from Maven Central using the following 
 
 * **groupId**&nbsp;&nbsp;&nbsp; com.github.gwtreact
 * **artifactId**&nbsp;&nbsp;gwt-redux
-* **version**&nbsp;&nbsp;&nbsp;  0.3.0
+* **version**&nbsp;&nbsp;&nbsp;  0.4.0
 
 ##Roadmap
 
@@ -34,6 +34,7 @@ You can download the latest release .jar from Maven Central using the following 
 
 | Date | Version | Description |
 | :---      | :---  | :---  |
+| 3/18/2017 | 0.4.0 | Refactored to use more future proof ES6 styled stateful components and added Preact support   |
 | 10/28/2016 | 0.3.0 | Support Redux 3.5.2 and GWT 2.8 final release   |
 | 6/18/2016 | 0.2.0 | Update to use gwt-interop-utils library   |
 | 5/25/2016 | 0.1.1 | Fix incorrect inherits   |
