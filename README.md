@@ -1,7 +1,7 @@
 # gwt-redux
 GWT Java bindings for Redux and Redux related projects
 
-##Introduction
+## Introduction
 
 gwt-redux provides Java [GWT](http://www.gwtproject.org/) bindings based on the
 new JsInterop capabilities introduced in GWT 2.8 for the following Redux related projects:
@@ -14,7 +14,7 @@ This project depends on [gwt-react](https://github.com/GWTReact/gwt-react)
 
 ***The API is only partially complete at this point and is highly likely to change.***
 
-##Getting Started
+## Getting Started
 
 Please take a look at the [gwt-react-examples](https://github.com/GWTReact/gwt-react-examples) project for
 details on how to use the library.
@@ -25,12 +25,12 @@ You can download the latest release .jar from Maven Central using the following 
 * **artifactId**&nbsp;&nbsp;gwt-redux
 * **version**&nbsp;&nbsp;&nbsp;  0.4.0
 
-##Roadmap
+## Roadmap
 
 * Finish the API
 * Provide API's for the popular middleware
 
-##Change log
+## Change log
 
 | Date | Version | Description |
 | :---      | :---  | :---  |
